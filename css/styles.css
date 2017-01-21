@@ -1,0 +1,69 @@
+@font-face {
+        font-family: "Basic Title Font";
+        src: url(basictitlefont.ttf);
+}
+
+* {
+    font-family: "Basic Title Font";
+}
+
+.header {
+  text-align: center;
+}
+
+#row {
+text-align: center;
+margin-left: 160px;
+}
+
+.image {
+  height: 200px;
+  width: 300px;
+  text-align: center;
+  position: relative;
+  display: inline-block;
+  float:left;
+  margin-left: 10px;
+  border-radius: 10px;
+  border:1px solid #021a40;
+}
+
+#nav {
+  display: block;
+  clear: both;
+  width: auto;
+  margin-left: 570px;
+  margin-top: 250px;
+}
+
+li {
+  padding: 5px;
+}
+
+blockquote {
+  text-align: center;
+}
+
+#about {
+  clear: both;
+  margin-left: 480px;
+  margin-top: 30px;
+}
+
+#contact {
+  background-color: grey;
+  opacity: 0.5;
+  width: 30%;
+  height: 100%;
+  padding: 10px;
+  margin-left: 435px;
+  text-align: center;
+}
+
+input {
+  margin-bottom: 10px;
+}
+
+#contactNav {
+  text-align: center;
+}
