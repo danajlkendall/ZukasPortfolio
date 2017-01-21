@@ -29,15 +29,35 @@ margin-left: 160px;
 }
 
 #nav {
-  display: block;
-  clear: both;
+  display: fixed;
   width: auto;
-  margin-left: 570px;
-  margin-top: 250px;
+  margin-left: 0px;
+  margin-top: 0px;
 }
 
 li {
   padding: 5px;
+}
+
+ol {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+ol li {
+    display: inline;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
 }
 
 blockquote {
@@ -65,5 +85,18 @@ input {
 }
 
 #contactNav {
+  text-align: center;
+}
+
+#input1 {
+  font-family: sans-serif;
+}
+
+#jsForm {
+  position: relative;
+  display: inline-block;
+  float:left;
+  margin-top: 50px;
+  margin-left: 540px;
   text-align: center;
 }

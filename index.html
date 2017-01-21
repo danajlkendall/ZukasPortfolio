@@ -3,9 +3,17 @@
   <head>
     <title>Dana Zukas' Portfolio</title>
     <link rel="stylesheet" href="css/styles.css">
-    <script type="text/javascript" src="portfolio.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
   </head>
   <body>
+    <div id="nav">
+      <ol>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ol>
+    </div>
+
     <h1 class="header">Dana Zukas</h1>
 
     <div id="row">
@@ -14,12 +22,14 @@
       <img src="https://static.standard.co.uk/s3fs-public/thumbnails/image/2015/08/25/18/recordplayer.jpg" class="image" alt="Record Player" title"Record Player" />
     </div>
 
-    <div id="nav">
-      <h2>Navigation</h2>
-      <ol>
-        <li><a href="about.html">About</a></li>
-        <li><a href="contact.html">Contact</a></li>
-      </ol>
-    </div>
+    <div id="jsForm">
+    <form action="demo_form.asp" id="demo_form">
+      Phrase:
+      <input type="text" id="input1" name="changeCase" placeholder="Put Phrase Here">
+      <br>
+      <input type="button" id="btn1" value="upperCase" onclick="upper();">
+      <input type="button" id="btn2" value="lowerCase" onclick="lower();">
+    </form>
+  </div>
   </body>
-</html>
+  </html>
